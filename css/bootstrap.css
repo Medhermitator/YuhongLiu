@@ -489,6 +489,9 @@ cite {
 .text-left {
   text-align: left;
 }
+.text-top-left {
+  text-align: top-left;
+}
 .text-right {
   text-align: right;
 }

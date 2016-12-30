@@ -36,7 +36,7 @@ body a{
 }
 /*----navbar-nav----*/
 .top-header{
-	background: #02918C;
+	background: #151B54;
 }
 .top-nav ul li a{
 	color: #FFFFFF;
@@ -173,23 +173,23 @@ nav a#pull {
 	min-height:680px;
 	position:relative;
 }
-.banner-info p{
-	color:#02918C;
-	font-size:1.5em;
-	font-weight:600;
-	margin:0;
-}
 .banner-info h1{
-	font-size: 5em;
+	font-size: 5rem;
 	font-weight: 900;
+	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
-	color: #02918C;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
+	color: white;
+	letter-spacing: 0.5rem;
+}
+.banner-info p{
+	color:white;
+	font-size:1.5rem;
+	font-weight:600;
+	margin:0rem;
 }
 .banner-info span{
-	color: #02918C;
+	color: #151B54;
 	font-size: 0.9em;
 	display: block;
 }
@@ -223,7 +223,7 @@ a.bannner-btn:hover{
 	padding: 3.5em 0 5em;
 }
 .about-head h2{
-	color:#02918C;
+	color:#151B54;
 	font-weight:900;
 	font-size:3em;
 	margin:0;
@@ -274,7 +274,7 @@ a.bannner-btn:hover{
 }
 .about-grid h3 a:hover{
 	text-decoration:none;
-	color:#02918C;
+	color:#151B54;
 }
 .about-grid p{
 	color: #7E8287;
@@ -310,7 +310,7 @@ a.bannner-btn:hover{
 	
 }
 .service-head h2{
-	color: #02918C;
+	color: #151B54;
 	font-weight: 900;
 	font-size: 3em;
 	margin: 0;
@@ -356,7 +356,7 @@ a.bannner-btn:hover{
 }
 .services-grid-left-grid h3 a:hover{
 	text-decoration:none;
-	color:#02918C;
+	color:#151B54;
 }
 .services-grid-left-grid p{
 	color: #7E8287;
@@ -384,7 +384,7 @@ a.bannner-btn:hover{
 	padding:4em 0;
 }
 .works-head h2{
-	color:#02918C;
+	color:#151B54;
 	font-weight:900;
 	font-size:3em;
 	margin:0;
@@ -427,7 +427,7 @@ div.caption{
 	position:absolute;
 	top:0px;
 	width:100%;
-	background:#02918C;
+	background:#151B54;
 }
 div.caption h4{
 	font-size:1.2em;
@@ -443,7 +443,7 @@ div.caption p{
 }
 /*----contact---*/
 .contact-head h2{
-	color:#02918C;
+	color:#151B54;
 	font-weight:900;
 	font-size:3em;
 	margin:0;
