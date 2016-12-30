@@ -1,0 +1,309 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Yuhong Liu</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="https://www.mie.utoronto.ca/"><img src="images/mielogo.png" title="Logo" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#home" class="scroll">Home</a><span> </span></li>
+								<li><a href="#about" class="scroll">About Me</a></li>
+								<li><a href="#services" class="scroll">Projects</a></li>
+								<li><a href="#work" class="scroll">Skills</a><span> </span></li>
+								<li><a href="#contact" class="scroll">Contact Me</a></li>
+								<div class="clearfix"> </div>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!----banner---->
+			<div class="banner">
+				<!---- banner-info ---->
+				<div class="banner-info text-center">
+					<br>
+					<br>
+					<br>
+					<h1>Yuhong Liu</h1>
+					<br>
+					<p>Master of Engineering | Industrial Engineering | University of Toronto</p>
+					<div class="clearfix"> </div>
+				</div>
+				<!-- //banner-info ---->
+			</div>
+			<!--//banner---->
+			<!---- about --->
+			<div id="about" class="about">
+				<div class="about-head text-center">
+					<div class="container">
+						<h2>ABOUT ME</h2>
+						<span></span>
+						<p>My name is <label>Yuhong Liu</label>, a second year M.Eng student at University of Toronto and majored in Industrial Engineering. I am passionate about optimization, 
+							latest electronic gadgets and discussing various crazy startup ideas with friends. Below are some quick facts about me.</p>
+					</div>
+				</div>
+				<!--- about-grids --->
+				<div class="about-grids text-center">
+					<div class="container">
+						<div class="col-md-3 about-grid">
+							<span class="light-icon"> </span>
+							<h3><a href="#">Love Challenges</a></h3>
+							<p>It is a cruse and a bless, I love to challenge myself everyday.</p>
+							<label> </label>
+						</div>
+						<div class="col-md-3 about-grid">
+							<span class="pen-icon"> </span>
+							<h3><a href="#">Luck = Hardwork</a></h3>
+							<p>I always believe, "The harder you work, the luckier you are!"</p>
+							<label> </label>
+						</div>
+						<div class="col-md-3 about-grid">
+							<span class="cog-icon"> </span>
+							<h3><a href="#">D.M.A.I.C</a></h3>
+							<p>There are always somethings in your life you can imporve. Go apply lean six sigma everywhere.</p>
+							<label> </label>
+						</div>
+						<div class="col-md-3 about-grid">
+							<span class="mon-icon"> </span>
+							<h3><a href="#">Electroic Gadgets</a></h3>
+							<p>I'd love to get my hands on any latest electronic gadgets (if my wallet/GF permits).</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<!--- about-grids --->
+			</div>
+			<!----//about --->
+			<!--- services ---->
+			<div id="services" class="services">
+					<!---services-grids--->
+					<div class="services-grids">
+						<div class="col-md-6 services-grid-left">
+							<div class="service-head">
+								<h2>PROJECTS</h2>
+								<span> </span>
+								<p></p>
+							</div>
+							<!----- services-grid-left-grids ---->
+							<div class="services-grid-left-grids">
+								<div class="col-md-6 services-grid-left-grid">
+									<span> </span>
+									<h3><a href="#">BI Team Task Tracker</a></h3>
+									<p>Simple Excel VBA Form + MS Access database task tracker to automate the task tracking process and communications within a small development team.</p>
+								</div>
+								<div class="col-md-6 services-grid-left-grid">
+									<span class="search"> </span>
+									<h3><a href="file/CIV499_ThesisPresentation_YuhongLiu.pdf">Bixi Toronto Maintence Route Optimization</a></h3>
+									<p>Calculated the optimal maintenance route of bixi toronto based on a mixed integer programming model run in AMPL+Gurobi. ETL of the data is done by Java.</p>
+								</div>
+								<div class="col-md-6 services-grid-left-grid">
+									<span class="clock"> </span>
+									<h3><a href="#">Bixi Toronto Users Pattern Data Visualization (Current)</a></h3>
+									<p>The end goal of the project is to generate a real time user pattern visualization of bixi toronto.</p>
+								</div>
+								<div class="col-md-6 services-grid-left-grid">
+									<span class="chart"> </span>
+									<h3><a href="#">Toronto 311 Website Optimization (Current)</a></h3>
+									<p>Using Hadoop technology to effectively analyze click stream data in order to optimize the website.</p>
+								</div>
+							</div>
+							<!----- services-grid-left-grids ---->
+						</div>
+						<div class="col-md-6 services-grid-right">
+							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!---services-grids--->
+			</div>
+			<!---//services ---->
+			<!---- works ---->
+			<div id="work" class="works">
+				<div class="conatiner">
+					<div class="works-head text-center">
+						<h2>SKILLS</h2>
+						<span> </span>
+						<p>Throughout my years at university and industry, 
+							I have mastered some useful skills in the 
+							space of technology and businesss intelligence.</p>
+							
+						<div id="Resume">
+							<p>If you think my set of skills would make me a good candidate for a job position 
+								in the field of <label>Industrial Engineering</label> or <label>Business Intelligence/Analytics</label>,
+								you are more than welcome to get in touch with me.</p>
+						My Latest Resume: <a href="file/YuhongLiu_BI_Resume_20150928.pdf"><img src="images/resume.png" width="50" height="50" alt="Resume" /></a>
+						</div>
+					</div>
+				</div>
+					<!---works-grids--->
+					<div class="works-grids">
+						<div class="works-grid col-md-3">
+							<img src="images/database.PNG" title="name"/>
+							<div class="caption">
+								<h4>SQL & Database Management</h4>
+								<p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+							</div>
+						</div>
+						<div class="works-grid col-md-3">
+							<img src="images/statistic.PNG" title="name" />
+							<div class="caption">
+								<h4>Analytical Computing</h4>
+								<p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+							</div>
+						</div>
+						<div class="works-grid col-md-3">
+							<img src="images/msoffice.png" title="name" />
+							<div class="caption">
+								<h4>MS Office & VBA</h4>
+								<p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+							</div>
+						</div>
+						<div class="works-grid col-md-3">
+							<img src="images/OOP.PNG" title="name" />
+							<div class="caption">
+								<h4>Computer Programming</h4>
+								<p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+							</div>
+						</div>
+						<div class="works-grid col-md-3">
+							<img src="images/OS.PNG" title="name" />
+							<div class="caption">
+								<h4>System Management</h4>
+								<p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+							</div>
+						</div>
+						<div class="works-grid col-md-3">
+							<img src="images/dv.PNG" title="name" />
+							<div class="caption">
+								<h4>Data Visualization</h4>
+								<p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+							</div>
+						</div>
+						<div class="works-grid col-md-3">
+							<img src="images/Efficiency-Large.jpg" title="name" />
+							<div class="caption">
+								<h4>Lean Six Sigma</h4>
+								<p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+							</div>
+						</div>
+						<div class="works-grid col-md-3">
+							<img src="images/PM.jpg" title="name" />
+							<div class="caption">
+								<h4>Project Management</h4>
+								<p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+						
+					</div>
+					<!--//works-grids--->
+				</div>
+			</div>
+			<!----//works ---->
+			<!---- contact ----->
+			<div id="contact" class="contact">
+				<div class="conatiner">
+					<div class="contact-head text-center">
+							<h2>CONTACT ME</h2>
+							<span> </span>
+							<p>If you are interested to know more about me 
+								beyond this point, you can either follow me on
+								LinkedIn, Facebook, or send me an email at <br>
+								<b>yuhong [dot] liu [at] mail [dot] utoronto [dot] ca</b></p>
+					<div id="social-icons">
+						<a href="https://ca.linkedin.com/in/yuhongl"><img src="images/linkedin.png" width="36" height="36" alt="LinkedIn" /></a>
+						<a href="https://www.facebook.com/liuyuhongsh"><img src="images/facebook.png" width="36" height="36" alt="Facebook" /></a>
+						<a href="mailto:yuhong.liu@mail.utoronto.ca"><img src="images/email.png" width="36" height="36" alt="Email" /></a>
+					</div>
+				<br>
+				</div>
+				<!----Contact-form---->
+				<!----Contact-form---->
+			</div>
+			<!----//contact ----->
+			<!----copy-right---->
+			<div class="copy-right text-center">
+				<div class="container">
+					<p>Template by <a href="#">W3layouts</a></p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+					</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			<!---//copy-right---->
+	</body>
+</html>
+
